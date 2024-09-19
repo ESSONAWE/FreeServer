@@ -1,0 +1,727 @@
+body{
+    background: rgb(244, 244, 150);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #181818;
+}
+#bloc_page
+{
+    width: 1200px;
+    margin: auto;
+}
+#logo 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+#logo img 
+{
+    width: 130px;
+    height: 150px;
+    border-radius: 20px;
+}
+#logo h1
+{
+    padding-left: 160px;
+}
+section h1, footer h1, nav a
+{
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#Titre_princpal
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+header h1
+{
+    font-family: serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+header h2{
+    font-family: serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+nav ul 
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 30px;
+}
+nav a
+{
+    font-size: 1em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a: hover
+{
+    color: #760001;
+    border: 3px solid #760001;
+}
+nav a h3
+{
+    width: 90px;
+    padding: 10px;
+    border-radius: 15px;
+    color: blue;
+}
+#bannière_image
+{
+    margin-top: 15px;
+    height: 600px;
+    border-radius: 15px;
+    background: url(image_logo.jpg) no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+article, aside
+{
+    text-align: justify;
+}
+article
+{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.I
+{
+    font-size: 1.5em;
+}
+.article_img
+{
+   width: 70px;
+   border-radius: 20px;
+   margin-right: 10px;
+} 
+.article, h1
+{
+    font-size: 2em;
+    font-weight: bolder;
+}
+{
+
+}
+article p
+{
+    font-size: 0,1em;
+}
+aside
+{
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+    width: 1000px;
+
+}
+.aside_img_logo
+{
+    width: 90px;
+    height: 100px;
+    border-radius: 20px;
+}
+#fleche_bulle
+{
+    position: absolute;
+    width: 20px;
+    margin-left: -20px;
+}
+aside h1
+{
+    text-align: center
+}
+#space
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(76, 85, 118);
+    color: white;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: black;
+}
+#space1
+{
+    margin-right: 5px;
+}
+#space2
+{
+    margin-right: 5px;
+}
+#space3
+{
+    margin-right: 5px;
+}
+#devps1
+{
+    margin: auto;
+    width: 1200px;
+}
+#dev3
+{
+    margin: auto;
+    width: 1200px;
+}
+#dvps12
+{
+    margin: auto;
+    width: 1200px;
+}
+#dvps11
+{
+    margin: auto;
+    width: 1200px;
+}
+
+/******************************************A.css****************************************/
+#bloc_accueil
+{
+    width: 1200px;
+    margin: auto;
+    background: rgb(244, 244, 150);
+}
+#accueil1
+{
+    background: white;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+#accueil1 h2
+{
+    margin-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#accueil2
+{
+    background: rgb(244, 244, 150);
+    color: black;
+    height: 800px;
+}
+.accueil2 a
+{
+    text-transform: none;
+    color: white;
+}
+#accueil2 ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    bottom: -100px;
+}
+#accueil2 h2
+{
+    text-align: center;
+    padding-top: 30px;
+}
+#symbole_image ul
+{
+    list-style-type: none;
+}
+.dw
+{
+    text-decoration: none;
+    color: black;
+}
+.NS
+{
+    position: relative;
+    top: -200px;
+    color: blue;    
+}
+.clic
+{
+    position: relative;
+    top: -120px;
+    text-decoration: none;
+    color: black;
+
+}
+.S
+{
+    background: white;
+    border-radius: 15px;
+    width: 150px;
+    
+}
+#hd h2
+{
+    color: white;
+    margin-left: 50px;
+}
+.dps
+{
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.core1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.core2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.y1 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.y2 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.y3 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.y4 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.kore1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.dpm
+{
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.kore2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.a1 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.a2 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.a3 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.a4 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.dpvi
+{
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.quare1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.quare2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.b1 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.b2 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.b3 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+.b4 img
+{
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+/**********************************************CV****************************************/
+#né
+{
+    font-size: large;
+}
+#ID
+{
+    width: 120px;
+    border-radius: 15px;
+    background: blueviolet;
+    color: black;
+    font-size: x-large;
+}
+#CP{
+     width: 400px;
+     border-radius: 15px;
+     background: blueviolet;
+     color: black;
+     font-size: x-large;
+}
+#CS
+{
+    width: 230px;
+    background: blueviolet;
+    color: black;
+    border-radius: 15px;
+    font-size: x-large;
+}
+#ATT
+{
+    width: 100px;
+    background: blueviolet;
+    border-radius: 15px;
+    color: black;
+    font-size: x-large;
+}
+#DI
+{
+    width: 100px;
+    background: blueviolet;
+    border-radius: 15px;
+    color: black;
+    font-size: x-large;
+}
+#bloc_cv
+{
+    width: 1200px;
+    margin: auto;
+    background:;
+     
+}
+.vitae
+{
+    position: relative;
+    top: -70px;
+    color: blue;
+}
+#bi
+{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    background: white;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#cvr1
+{
+    height: 200px;
+    background: rgb(76, 85, 118);
+    border-radius: 20px;
+    
+}
+.cvc
+{
+    margin-left: 50px;
+    border-radius: 30px;
+}
+.mi
+{
+    text-decoration: none;
+    color: black;
+}
+#accueil3
+{
+    height: 230px;
+    background: black;
+    width: 1200px;
+    margin: auto;
+    color: white;
+    border-radius: 20px;
+}
+#video
+{
+    width: 1200px;
+    margin: auto;
+}
+.came
+{
+    text-decoration: none;
+    color: black;
+}
+#hd
+{
+    height: 200px;
+    border-radius: 15px;
+}
+#fd
+{
+    height: 300px;
+    background: black;
+    border-color: black;
+    border-radius: 15px;
+}
+#bloc_dev
+{
+    width: 1200px;
+    margin: auto;
+}
+#mh
+{
+    height: 200px;
+    background: rgb(76, 85, 118);
+    border-radius: 15px;
+}
+#mf
+{
+    height: 300px;
+    background: black;
+    border-radius: 15px;
+    color: white;
+}
+#blocmaint
+{
+    width: 1200px;
+    margin: auto;
+}
+#hd
+{
+    background: rgb(76, 85, 118)
+}
+#fd
+{
+    color: white;
+}
+#mh
+{
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+#bloc_video
+{
+    width: 1200px;
+    margin: auto;
+}
+#vh
+{
+    background: rgb(76, 85, 118);
+    color: white;
+    height: 200px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+#vf
+{
+    background: black;
+    color: white;
+    height: 300px;
+    border-radius: 15px;
+}
+/**************************************************************SERVICE***************************************************************/
+#page_service
+{
+    width: 1200px;
+    margin: auto;
+}
+#head_service
+{
+    background: rgb(76, 85, 118);
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#ww
+{
+    border-radius: 15px;
+}
+#head_service h1
+{
+    margin-top: 4px;
+    padding-bottom: 5px;
+}
+#bloc_service
+{
+    background: black;
+}
+#corp
+{
+    background: white;
+    margin-top: 30px;
+}
+#ENS h1
+{
+    color: blue
+}
+.clas1
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.z2
+{
+    width: 250px;
+
+}
+.clas2
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -70px;
+    padding-top: 80px;
+}
+.clas3
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left: -70px;
+    padding-top: 80px;
+    padding-bottom: 60px
+}
+.z3
+{
+    position: relative;
+    right: -70px;
+}
+.clas4
+{
+    height: 250px;
+    width: 1200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.z4
+{
+    width: 200px;
+    position: relative;
+    right: -70px;
+}
+.z5
+{
+    position: relative;
+    right: -90px;
+}
+.z6
+{
+    position: relative;
+    right: -100px;
+}
+.SE
+{
+    color: white;
+}
+/*************************************************************CONTACT***********************************************/
+#co
+{
+    width: 1200px;
+    margin: auto;
+}
+.chead
+{
+    height: 200px;
+    background: rgb(76, 85, 118);
+    border-radius: 20px;
+}
+.ctc
+{
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.for
+{
+    width: 900px;
+    margin: auto;
+}
+#bt
+{
+    background: rgb(85, 85, 238)
+    
+
+}
+#in1 
+{
+    padding: 10px;
+    border-radius: 15px;
+}
+#in2
+{
+    padding: 10px;
+    border-radius: 15px;
+}
+#in3
+{
+    padding: 10px;
+    border-radius: 15px;
+}
+#in4
+{
+    padding: 10px;
+    border-radius: 15px;
+}
+#in5
+{
+    padding: 10px;
+    border-radius: 15px;
+}
+#area
+{
+    border: 2px solid black;
+}
